@@ -27,7 +27,7 @@ public class UserController {
     @RequestMapping("/hello")
     public String sayHello() {
         log.debug("test log ......");
-        return "hello";
+        return "hello4";
     }
 
     @RequestMapping("/add")
